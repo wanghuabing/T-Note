@@ -9,15 +9,15 @@
 ### 走 HTTP 代理
 
 ```bash
-git config --global http.proxy "http://127.0.0.1:8080"
-git config --global https.proxy "http://127.0.0.1:8080"
+git config --global http.proxy "http://127.0.0.1:1087"
+git config --global https.proxy "http://127.0.0.1:1087"
 ```
 
 ### 走 socks5 代理（如 Shadowsocks）
 
 ```bash
-git config --global http.proxy "socks5://127.0.0.1:1080"
-git config --global https.proxy "socks5://127.0.0.1:1080"
+git config --global http.proxy "socks5://127.0.0.1:1086"
+git config --global https.proxy "socks5://127.0.0.1:1086"
 ```
 
 ### 取消设置
